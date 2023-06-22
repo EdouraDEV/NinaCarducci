@@ -1,6 +1,7 @@
 body {
 	max-width: 1920px;
 	margin: auto;
+	background-color: #F8F8F8;
 }
 * {
 	font-family: 'Inter';
@@ -30,7 +31,7 @@ body {
 }
 
 .nav li {
-	padding-inline: 10px;
+	padding-inline: 10px;	
 }
 
 .nav a {
@@ -83,7 +84,7 @@ body {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
-	width: 60%;
+	width: 100%;
 }
 #about-me p {
 	width: 80%;
@@ -220,6 +221,12 @@ form {
 	flex-direction: column;
 	width: 70%;
 	align-items: flex-start;
+}
+form div {
+	width: 100%;
+}
+form textarea {
+	width: 100%;
 }
 
 form input {
