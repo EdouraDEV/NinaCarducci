@@ -359,5 +359,13 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+	.nina_side{
+		width: 250px;
+		height: 250px;
+	}
+	.camera_side{
+		width: 250px;
+		height: 250px;
+	}
 }
 
